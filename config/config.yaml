@@ -1,0 +1,23 @@
+env: "local"
+
+app:
+  name: "Stock Service"
+
+server:
+  port: 50051
+
+database:
+  db_host: "localhost"
+  db_port: 6500
+  db_username: "my_user"
+  db_password: "my_password"
+  db_name: "vincent_db"
+  db_ssl: "disable"
+  db_timezone: "Asia/Shanghai"
+
+
+  name: "vincent_db"
+  username: "my_user"
+  password: "my_password"
+  port: 6500
+  sslmode: disable
